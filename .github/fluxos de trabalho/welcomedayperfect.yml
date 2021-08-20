@@ -1,8 +1,9 @@
-name: Greetings
+name: Welcome, God is good! 
 
 on: [pull_request, issues]
 
-jobs:
+jobs: write
+
   greeting:
     runs-on: ubuntu-latest
     permissions:
@@ -14,3 +15,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'perfect  day to make dreams come true'
                 pr-message: 'you will win'
+                
+
+for n in range (100):
+print ('te odeio')
+print ('te odeio')
